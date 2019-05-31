@@ -1,0 +1,110 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    background-image: url("../images/papyrus-dark.png");
+    background-repeat: repeat;
+    /* background-size: cover;   */
+}
+
+header {
+    background-color: #fff;
+    border: 2px solid #cccccc;
+    margin-bottom: 50px;
+}
+
+header h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #fff;
+    background-color: #4aaaa5;
+    line-height: 2;
+    margin-bottom: 0;
+}
+
+#name {
+    width: 25%;
+    text-align: center;
+    margin-left: 15%;
+}
+
+.content-inner h1 {
+    color: #4aaaa5;
+}
+
+.content-outer {
+    min-height: 100%;
+    width: 960px;
+    border: 2px solid #dddddd;
+    background: #fff;
+    margin: 0 auto;
+    padding: 20px;
+} 
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+}
+nav {
+    top: -80px;
+    position: relative;
+    margin-right: 15%;
+}
+
+nav ul li a {
+    display: block;
+    padding: 30px;
+    background-color: #fff;
+    text-decoration: none;
+}
+
+#profile-image {
+    float: left;
+    margin-right: 30px;
+}
+
+p, a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+    color: #777777;
+}
+
+.content-inner {
+    padding: 20px;
+    padding-bottom: 50px;
+  }
+
+footer {
+    background-color: #666666;
+    height: 50px;
+    margin-top: -50px;  
+    border-top: 8px solid #4aaaa5;
+}
+
+
+/* CONTACT FORM */
+
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+#btn-submit {
+    border-radius: 0;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #4aaaa5;
+    margin-top: 25px;
+}
