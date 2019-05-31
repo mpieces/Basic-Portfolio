@@ -64,6 +64,11 @@ nav ul li a {
     text-decoration: none;
 }
 
+nav ul li a:hover, a:focus {
+    background-color: #4aaaa5;
+    color: #fff;
+}
+
 #profile-image {
     float: left;
     margin-right: 30px;
