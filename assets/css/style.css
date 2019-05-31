@@ -113,3 +113,24 @@ input[type=text], input[type=email], textarea {
     background-color: #4aaaa5;
     margin-top: 25px;
 }
+
+
+/* PORTFOLIO PAGE */
+
+.container {
+    position: relative; 
+    margin: 20px;  
+}
+
+.content {
+    position: absolute; /* Position the background text */
+    bottom: 20px; 
+    background: rgba(74, 170, 165, 0.8); 
+    color: #fff; 
+    width: 400px;
+    text-align: center;
+  }
+
+  .content p {
+      color: #fff;
+  }
