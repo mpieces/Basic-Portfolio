@@ -119,7 +119,9 @@ input[type=text], input[type=email], textarea {
 
 .container {
     position: relative; 
-    margin: 20px;  
+    margin: 20px;
+    float: left;
+      
 }
 
 .content {
